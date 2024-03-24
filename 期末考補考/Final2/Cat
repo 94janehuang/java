@@ -1,0 +1,28 @@
+public class Cat extends Pets {
+    protected String name;
+    protected String color;
+    protected String owner;
+
+    public Cat(String name, String color ,String owner) {
+        this.name = name;
+        this.color = color;
+        this.owner = owner;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public String getOwner(){
+        return owner;
+    }
+
+    @Override
+    public void sound() {
+        System.out.println("喵");
+    }
+}

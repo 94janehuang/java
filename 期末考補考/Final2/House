@@ -1,0 +1,23 @@
+class House {
+    private String address;
+    private double price;
+    private String owner;
+    
+    public House(String address, double price ,String owner) {
+        this.address = address;
+        this.price = price;
+        this.owner = owner;
+
+        public String getAddress(){
+            return address;
+        }
+    
+        public double getPrice(){
+            return price;
+        }
+
+        public String getOwner(){
+            return owner;
+        }
+    }
+}

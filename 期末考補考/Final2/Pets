@@ -1,0 +1,20 @@
+public abstract class Pets {
+
+    protected String name;
+    protected String color;
+    protected String owner;
+
+    public String getName(){
+        return name;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public String getOwner(){
+        return owner;
+    }
+
+    public abstract void sound();
+}

@@ -1,0 +1,51 @@
+class Person {
+    private String name;
+    private int age;
+    private House house;
+    private BankAccount bankAccount;
+    private Car car;
+    private Pets pet;
+    
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public void setHouse(House house){
+        this.house = house;
+    }
+
+    public void setBankAccount(BankAccount bankaccount){
+        this.bankAccount = bankaccount;
+    }
+
+    public void setCar(Car car){
+        this.car = car;
+    }
+
+    public void setPets(Pets pet){
+        this.pet = pet;
+    }
+
+    public void goHome(){
+        if(Person have House){  //如果Person包含House
+            System.out.println(house.getAddress());
+        }
+
+        else if(Person have Pets){   //如果Person包含Pets
+            System.out.println(bankAccount.getAccount_Number());
+                if(Account_Number>=2000000){     //如果Account_Number大於等於200萬元
+                    System.out.println("建議您購買房子");
+                }
+        }
+        
+        else(Person have House&Pets){   //如果Person包含House和Pets
+            System.out.println(house.getAddress());
+            System.out.println(dog.getSound());
+            @Override
+            public void sound() {
+                System.out.println("旺");
+            }
+        }
+    }
+}

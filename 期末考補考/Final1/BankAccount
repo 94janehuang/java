@@ -1,0 +1,17 @@
+class BankAccount {
+    private String account_Number;
+    private double balance;
+
+    public BankAccount(String account_Number, double balance) {
+        this.account_Number = account_Number;
+        this.balance = balance;
+    }
+
+    public String getAccountNumber(){
+        return accountNumber;
+    }
+
+    public double getBalance(){
+        return balance;
+    }
+}
